@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap");
+
+$White: hsl(0, 0%, 100%);
+$Black: hsl(0, 0%, 0%);
+$Dark-Gray: hsl(0, 0%, 55%);
+$VeryDark-Gray: hsl(0, 0%, 41%);
+
+@mixin media($size) {
+  @media (max-width: $size) {
+    @content;
+  }
+}
